@@ -21,6 +21,7 @@ textarea {
   border-bottom: 10px solid black;
 }
 
+/* Body/Container section*/
 .description {
   white-space: pre-wrap;
 }
@@ -69,3 +70,4 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+/* Body/Container section */
