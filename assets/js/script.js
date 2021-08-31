@@ -34,7 +34,7 @@ $(document).ready(function () {
     // loop over time blocks
     $(".time-block").each(function () {
       var blockHour = parseInt($(this).attr("id").split("hour")[1]);
-      console.log(currentHour, blockHour);
+      console.log(blockHour, currentHour);
 
       // verify time
       if (blockHour < currentHour) {
